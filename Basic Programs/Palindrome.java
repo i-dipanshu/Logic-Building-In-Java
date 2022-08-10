@@ -1,4 +1,5 @@
 public class Palindrome {
+    // Method 1 : check palindrome
     static boolean palinNum(int n) {
         int r, sum = 0, temp = n;
 
@@ -14,6 +15,7 @@ public class Palindrome {
         return false;
     }
 
+    // reverse a given num
     static void printReverse(int n) {
         if (n > 0) {
             System.out.print(n % 10);
@@ -21,6 +23,7 @@ public class Palindrome {
         }
     }
 
+    // reverse a given string
     static String palinString(String s) {
         String newStr = "";
 
