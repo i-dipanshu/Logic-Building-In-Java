@@ -1,4 +1,4 @@
-public class Reverse_01 {
+public class Reverse {
     static void reverseRecr(int n) {
         if (n > 0) {
             System.out.print(n % 10);

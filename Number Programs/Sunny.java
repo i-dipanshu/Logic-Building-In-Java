@@ -1,8 +1,7 @@
 public class Sunny {
 
     static boolean sunny(int num){
-        num ++;
-        double sqrt = Math.sqrt(num);
+        double sqrt = Math.sqrt(++num);
         if((sqrt - Math.floor(sqrt)) == 0){
             return true;
         }
