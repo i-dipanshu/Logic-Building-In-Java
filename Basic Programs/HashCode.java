@@ -8,12 +8,12 @@ public class HashCode {
     }
     // while == compares the references.
     public static void main(String[] args) {
-        Integer a = new Integer(23);
-        Integer b = new Integer(23);
-        System.out.println(compare(a, b));
+        // Integer a = new Integer(23);
+        // Integer b = new Integer(23);
+        // System.out.println(compare(a, b));
 
-        HashCode x = new HashCode();
-        HashCode y = new HashCode();
-        System.out.println(hash(x, y));
+        // HashCode x = new HashCode();
+        // HashCode y = new HashCode();
+        // System.out.println(hash(x, y));
     }
 }

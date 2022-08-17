@@ -13,6 +13,7 @@ public class SumInput {
             sum += in;
         }
         System.out.println("Sum = " + sum);
+        sc.close();
     }
 
     public static void main(String[] args) {

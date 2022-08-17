@@ -1,5 +1,3 @@
-import java.lang.module.FindException;
-
 public class Fibo {
     static int fibo(int n){
         if(n == 0 ){

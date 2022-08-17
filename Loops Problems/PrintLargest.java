@@ -15,6 +15,7 @@ public class PrintLargest {
             }
         }
         System.out.println("Largest = " + largest);
+        sc.close();
     }
     public static void main(String[] args) {
         largest();
