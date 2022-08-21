@@ -14,6 +14,8 @@ public class SelectionSort {
             arr[i] = temp;
         }
     }
+
+   
     public static void main(String[] args) {
         int [] arr = {1, 23, -2, -45, 6, 0};
         System.out.println(Arrays.toString(arr));
