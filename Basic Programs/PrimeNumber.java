@@ -1,4 +1,4 @@
-public class Prime {
+public class PrimeNumber {
     static boolean checkPrime(int n){
         // corner case
         if(n == 0 || n == 1){
