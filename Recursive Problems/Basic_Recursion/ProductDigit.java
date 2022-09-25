@@ -1,3 +1,5 @@
+package Basic_Recursion;
+
 public class ProductDigit {
     public static void main(String[] args) {
         int n = 123;

@@ -1,3 +1,4 @@
+package Basic_Recursion;
 public class AddDigits {
     public static void main(String[] args) {
         int n = 912;
