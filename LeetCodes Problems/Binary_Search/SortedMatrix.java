@@ -21,23 +21,23 @@ public class SortedMatrix {
      */
 
     static int[] search(int[][] arr, int target){
-        int row = 0, coloum = arr[0].length - 1;
+        int row = 0, colum = arr[0].length - 1;
         int[] index = {-1, -1};
 
-        while(row < arr.length && coloum >= 0){
+        while(row < arr.length && colum >= 0){
             // element found
-            if (target == arr[row][coloum]) {
+            if (target == arr[row][colum]) {
                 index[0] = row;
-                index[1] = coloum;
+                index[1] = colum;
                 return index;
             }
 
-            if (target > arr[row][coloum]) {
+            if (target > arr[row][colum]) {
                 row++;
             }
 
-            if (target < arr[row][coloum]) {
-                coloum--;
+            if (target < arr[row][colum]) {
+                colum--;
             }
         }
         return index;
