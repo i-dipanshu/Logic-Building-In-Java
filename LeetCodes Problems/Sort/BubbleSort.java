@@ -9,18 +9,18 @@ public class BubbleSort{
         System.out.println(Arrays.toString(arr));
     }
 
-    // optimised solution
+    // optimized solution
     // returns the array after sorting
 
     static void bubble_Sort(int[] arr){
-        // to check if swap occured or not
+        // to check if swap occurred or not
         boolean swapped;
 
         // runs n - 1 times for the only element left 
         // it would be already sorted
 
         for(int i = 0; i < arr.length - 1; i++){
-            // intial value 
+            // initial value 
             swapped = false;
 
             // runs n - i times since last i elements 
@@ -34,7 +34,7 @@ public class BubbleSort{
                     swapped = true;
                 }
             }
-            // if swapped is false ie; no swapped occured
+            // if swapped is false ie; no swapped occurred
             if(!swapped){
                 break;
             }
